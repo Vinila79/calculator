@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .main{
+            display: flex;
+            height: 430px;
+            width: 400px;
+            border: 5px solid;
+            background-color:antiquewhite;
+            flex-direction: column;
+            gap: 10px;
+            flex-wrap: wrap;
+            flex-shrink: 0;
+            border-radius: 20px;
+
+        }
+        .bar{
+            height: 100px;
+            width: 400px;
+            background-color:black;  
+            border-radius: 10px;  
+        }
+        .value{
+            height: 100px;
+            width: 396px;
+        background-color: black;
+            text-align: end;
+            font-size: 80px;
+            border-radius: 10px;
+          
+        }
+        .p1{
+            display: flex;
+            height: 55px;
+            width: 400px;
+           justify-content:space-evenly;
+
+        }
+        .bt1{
+            height: 30px;
+            width: 80px;
+           font-size: 20px;
+        }
+        .p2{
+            display: flex;
+            height: 55px;
+            width: 400px;
+           justify-content:space-evenly;
+
+        }
+        .bt2{
+            height: 30px;
+            width: 80px;
+            font-size: 20px;
+        }
+        .p3{
+            display: flex;
+            height: 55px;
+            width: 400px;
+           justify-content:space-evenly;
+
+        }
+        .bt3{
+            height: 30px;
+            width: 80px;
+            font-size: 20px;
+        }
+        .p4{
+            display: flex;
+            height: 55px;
+            width: 400px;
+           justify-content:space-evenly;
+
+        }
+        .bt4{
+            height: 30px;
+            width: 80px;
+            font-size: 20px;
+        }
+        .p5{
+            display: flex;
+            height: 55px;
+            width: 400px;
+           justify-content:space-evenly;
+
+        }
+        .bt5{
+            height: 30px;
+            width: 80px;
+            font-size: 20px;
+            transition-duration: 2s;
+        }
+        #b1:hover{
+            background-color:violet;
+            transition-duration: 1s;
+        }
+        #b2:hover{
+            background-color: blue;
+            transition-duration: 1s;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bar">
+           
+            <input type="text" class="value" placeholder="0">
+        </div>
+        <div class="p1">
+           <button><div class="bt1" id="b1">C</div></button> 
+           <button><div class="bt1" id="b1">%</div></button> 
+           <button><div class="bt1" id="b1"><i class="material-icons">&#xe14a;</i></div></button> 
+           <button><div class="bt1" style="font-size: 30px;" id="b1">÷</div></button> 
+           </div>
+           <div class="p2">
+            <button><div class="bt2" id="b2">7</div></button> 
+            <button><div class="bt2" id="b2">8</div></button> 
+            <button><div class="bt2" id="b2">9</div></button> 
+            <button><div class="bt2" id="b1" style="font-size: 17px;">X</div></button> 
+           </div>
+           <div class="p3">
+            <button><div class="bt3" id="b2">4</div></button> 
+            <button><div class="bt3" id="b2">5</div></button> 
+            <button><div class="bt3" id="b2">6</div></button> 
+            <button><div class="bt3" id="b1">-</div></button> 
+           </div>
+           <div class="p4">
+            <button><div class="bt4" id="b2">1</div></button> 
+            <button><div class="bt4" id="b2">2</div></button> 
+            <button><div class="bt4" id="b2">3</div></button> 
+            <button><div class="bt4" id="b1">+</div></button> 
+           </div>
+           <div class="p5">
+            <button><div class="bt5" id="b2">00</div></button> 
+            <button><div class="bt5" id="b2">0</div></button> 
+            <button><div class="bt5" id="b1">.</div></button> 
+            <button><div class="bt5" id="b1">=</div></button> 
+           </div>
+           
+
+        
+    </div>
+</body>
+</html>
